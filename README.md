@@ -7,9 +7,8 @@
 ## Run App on localhost
 * In a new terminal run command ```node server.js```
 
-## Insert(POST)
-
-# Sample Insert Data
+# Insert(POST)
+##Sample Insert Data
 
 ``` 
 {
@@ -24,7 +23,7 @@
 
 ```
 
-##Update(POST)
+# Update(POST)
 
 ```
 {
@@ -33,12 +32,12 @@
 }
 ```
 
-##Delete
+# Delete
 ```
 {
 	"name":"AirMax"
 }
 ```
-##Query
+# Query
 * ```GET``` request on ```http://localhost:3000/query``` to get products array
 * ```GET``` request on ```http://localhost:3000/query/recoverProducts``` to get recoverProducts array
